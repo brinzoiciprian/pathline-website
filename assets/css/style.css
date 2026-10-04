@@ -1275,74 +1275,74 @@ button,input,textarea,select {
 
 /* Icon Tururi culturale */
 .cultural-icon-label {
-  display: inline-flex;
-  align-items: center;
-  gap: .55rem;
-  vertical-align: middle;
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;
+  vertical-align:middle;
 }
 
 .cultural-icon-text {
-  display: inline-block;
+  display:inline-block;
 }
 
 .cultural-tour-icon {
-  display: inline-block;
-  width: 64px;
-  height: 32px;
-  flex: 0 0 64px;
-  background: url("../images/icon-tururi-culturale.png") center / contain no-repeat;
+  display:inline-block;
+  width:64px;
+  height:32px;
+  flex:0 0 64px;
+  background:url("../images/icon-tururi-culturale.png") center/contain no-repeat;
 }
 
-/* Fallback: iconița apare chiar dacă browserul are JavaScript vechi în cache */
+/* Fallback vizibil chiar dacă JavaScript-ul este în cache */
 .nav-list > li:nth-child(2) > .dropdown-toggle::before,
 a.overview-link[href$="tururi-culturale.html"]::before,
 .footer-links a[href$="tururi-culturale.html"]::before,
 .home-category-card.culture strong::before {
-  content: "";
-  display: inline-block;
-  width: 64px;
-  height: 32px;
-  flex: 0 0 64px;
-  background: url("../images/icon-tururi-culturale.png") center / contain no-repeat;
-  vertical-align: middle;
-  margin-right: .45rem;
+  content:"";
+  display:inline-block;
+  width:64px;
+  height:32px;
+  flex:0 0 64px;
+  background:url("../images/icon-tururi-culturale.png") center/contain no-repeat;
+  vertical-align:middle;
+  margin-right:.45rem;
 }
 
 a.overview-link[href$="tururi-culturale.html"],
 .footer-links a[href$="tururi-culturale.html"],
 .home-category-card.culture strong {
-  display: flex;
-  align-items: center;
+  display:flex;
+  align-items:center;
 }
 
 .nav-list > li:nth-child(2) > .dropdown-toggle:has(.cultural-tour-icon)::before,
 a.overview-link[href$="tururi-culturale.html"]:has(.cultural-tour-icon)::before,
 .footer-links a[href$="tururi-culturale.html"]:has(.cultural-tour-icon)::before,
 .home-category-card.culture strong:has(.cultural-tour-icon)::before {
-  display: none;
+  display:none;
 }
 
 .home-category-card .cultural-tour-icon,
 .home-category-card.culture strong::before {
-  width: 86px;
-  height: 43px;
-  flex-basis: 86px;
+  width:86px;
+  height:43px;
+  flex-basis:86px;
 }
 
-@media (max-width: 680px) {
+@media (max-width:680px) {
   .cultural-tour-icon,
   .nav-list > li:nth-child(2) > .dropdown-toggle::before,
   a.overview-link[href$="tururi-culturale.html"]::before,
   .footer-links a[href$="tururi-culturale.html"]::before {
-    width: 54px;
-    height: 27px;
-    flex-basis: 54px;
+    width:54px;
+    height:27px;
+    flex-basis:54px;
   }
 
   .home-category-card .cultural-tour-icon,
   .home-category-card.culture strong::before {
-    width: 72px;
-    height: 36px;
-    flex-basis: 72px;
+    width:72px;
+    height:36px;
+    flex-basis:72px;
   }
 }
