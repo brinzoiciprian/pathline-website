@@ -1290,7 +1290,7 @@ button,input,textarea,select {
   width:64px;
   height:32px;
   flex:0 0 64px;
-  background:url("../images/icon-tururi-culturale.png") center/contain no-repeat;
+  background:url("../images/icon-tururi-culturale-v2.png") center/contain no-repeat;
 }
 
 /* Fallback vizibil chiar dacă JavaScript-ul este în cache */
@@ -1303,7 +1303,7 @@ a.overview-link[href$="tururi-culturale.html"]::before,
   width:64px;
   height:32px;
   flex:0 0 64px;
-  background:url("../images/icon-tururi-culturale.png") center/contain no-repeat;
+  background:url("../images/icon-tururi-culturale-v2.png") center/contain no-repeat;
   vertical-align:middle;
   margin-right:.45rem;
 }
