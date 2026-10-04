@@ -1346,3 +1346,31 @@ a.overview-link[href$="tururi-culturale.html"]:has(.cultural-tour-icon)::before,
     flex-basis:72px;
   }
 }
+
+
+/* Static cultural icon */
+.cultural-static-label{
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;
+  vertical-align:middle;
+}
+.cultural-static-icon{
+  display:block;
+  width:64px;
+  height:auto;
+  flex:0 0 auto;
+}
+.dropdown-menu .cultural-static-icon,
+.footer-links .cultural-static-icon,
+.breadcrumbs .cultural-static-icon,
+.eyebrow .cultural-static-icon{
+  width:52px;
+}
+.home-category-card .cultural-static-icon{
+  width:86px;
+}
+@media(max-width:680px){
+  .cultural-static-icon{width:54px}
+  .home-category-card .cultural-static-icon{width:72px}
+}
