@@ -1272,3 +1272,50 @@ button,input,textarea,select {
   }
 
 }
+
+
+/* Icon Tururi culturale */
+.cultural-icon-label {
+  display:inline-flex;
+  align-items:center;
+  gap:.48rem;
+  vertical-align:middle;
+}
+
+.cultural-tour-icon {
+  display:inline-block;
+  width:44px;
+  aspect-ratio:16 / 9;
+  flex:0 0 auto;
+  background-image:url("data:image/png;base64,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");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+}
+
+.cultural-overview-link {
+  display:flex!important;
+  align-items:center;
+  gap:.48rem;
+}
+
+.home-category-card .cultural-tour-icon {
+  width:70px;
+}
+
+.dropdown-menu .cultural-tour-icon,
+.footer-links .cultural-tour-icon,
+.breadcrumbs .cultural-tour-icon,
+.eyebrow .cultural-tour-icon {
+  width:40px;
+}
+
+@media (max-width:680px) {
+  .cultural-tour-icon {
+    width:38px;
+  }
+
+  .home-category-card .cultural-tour-icon {
+    width:56px;
+  }
+}
